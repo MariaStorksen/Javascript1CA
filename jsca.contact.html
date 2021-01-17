@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Star Wars | Contact</title>
+		<link href="jsma.style.css" rel="stylesheet" />
+		<link rel="icon" href="data:;base64,=" />
+	</head>
+	<body>
+		<main class="contact-container">
+			<form id="formContact">
+				<div>
+					<label>
+						Name (required)
+						<input name="name" id="name" />
+					</label>
+					<label>
+						Subject (minimum length of 10 characters)
+						<input name="subject" id="subject" />
+					</label>
+					<div class="error-form" id="subjectError">
+						The length of subject must be at least 10 characters
+					</div>
+				</div>
+
+				<div>
+					<label>
+						Email (required)
+						<input name="email" id="email" />
+					</label>
+					<div class="error-form" id="emailError">
+						Enter a valid email address, please
+					</div>
+				</div>
+				<button>Submit!</button>
+			</form>
+		</main>
+		<script src="jsma.script3.js"></script>
+	</body>
+</html>

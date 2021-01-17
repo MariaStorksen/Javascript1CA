@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: "Verdana", sans-serif;
+	text-align: center;
+	font-size: 3em;
+	margin: 0.5em;
+	padding: 0.5em;
+	color: #36454f;
+}
+
+.container {
+	max-width: 1300px;
+	max-height: 500px;
+	margin: 0 auto;
+	background-color: slategrey;
+}
+
+.contact-container {
+	background-color: white;
+	display: flex;
+	width: 100%;
+	height: 0 auto;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+#formContact {
+	width: 100%;
+	height: 0 auto;
+	font-family: "Verdana", sans-serif;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+#name {
+	width: 100%;
+	height: 0 auto;
+	display: flex;
+	margin-bottom: 1em;
+}
+
+#subject {
+	width: 100%;
+	height: 0 auto;
+	display: flex;
+	padding-bottom: 2.5em;
+	margin-bottom: 1em;
+}
+
+#subjectError {
+	margin-bottom: 1.5em;
+}
+
+#email {
+	width: 100%;
+	height: 0 auto;
+	display: flex;
+	margin-bottom: 1em;
+}
+
+#emailError {
+	margin-bottom: 1.5em;
+}
+
+button {
+	color: red;
+	border-style: solid 1px black;
+}
+
+.details-container {
+	width: 100%;
+	height: 0 auto;
+	margin: 0 auto;
+	background-color: slategrey;
+}
+
+.luke,
+.c3po,
+.r2d2,
+.darth,
+.leia,
+.owen,
+.beru,
+.r5d4,
+.biggs,
+.obi {
+	display: flex;
+	font-family: "Verdana", sans-serif;
+	text-align: center;
+	height: 100%;
+	width: 0 auto;
+	margin: 0 auto;
+	background-color: #36454f;
+	color: turquoise;
+}
+
+.loader {
+	border: 20px solid purple;
+	border-top: 16px solid black;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 1.5em;
+	padding: 1.5em;
+	animation: spin 1s linear infinite;
+}
+
+.people {
+	width: 1200px;
+	height: 400px;
+	display: flex;
+	margin: 0 auto;
+	background-color: whitesmoke;
+	padding-top: 7em;
+	align-content: center;
+}
+
+p {
+	font-family: "Verdana", sans-serif;
+	/*text-align: center;*/
+	background-color: #36454f;
+	color: turquoise;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
